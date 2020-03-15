@@ -27,7 +27,7 @@ header('Content-Type: text/html');
         } elseif( $val == '../' . basename( __DIR__ ) ){
           continue;
         }
-        echo '<li><a href="' . $val . '">' . $val . '</a></li>';
+        echo '<li><a href="' . $val . '">' . substr($val, strrpos($val, '/')+1) . '</a></li>';
       }
     ?>
   </body>
