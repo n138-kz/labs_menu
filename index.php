@@ -21,6 +21,10 @@ header('Content-Type: text/html');
         if( false ){
         } elseif( $val == '../index.php' ){
           continue;
+        } elseif( $val == '../robots.txt' ){
+          continue;
+        } elseif( $val == '../' . basename( __DIR__ ) ){
+          continue;
         }
         echo '<li><a href="' . $val . '">' . $val . '</a></li>';
       }
