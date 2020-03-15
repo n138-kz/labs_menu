@@ -6,12 +6,15 @@ header('Content-Type: text/html');
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Labs menu</title>
+  <base target="_blank" />
   <style media="screen">
     li:nth-child(even){
       background-color: azure;
     }
     li{
       list-style: none;
+      text-align: center;
+      font-size: xx-large;
     }
   </style>
   </head>
