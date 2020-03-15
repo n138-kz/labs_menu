@@ -28,7 +28,7 @@ header('Content-Type: text/html');
   </style>
   </head>
   <body>
-    <li><a href="https://github.com/lkz138">Github</a></li>
+    <li><a href="https://github.com/lkz138"><img src="GitHub-Mark-32px.png" alt="" />Github</a></li>
     <?php
       foreach( glob('../*') as $key => $val ){
         if( false ){
