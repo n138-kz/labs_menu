@@ -19,6 +19,9 @@ header('Content-Type: text/html');
       vertical-align: middle;
       text-decoration: none;
     }
+    li img{
+      width: 1em;
+    }
     @media screen and (max-width: 380px){
       li{
         text-align: center;
