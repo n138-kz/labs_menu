@@ -13,8 +13,17 @@ header('Content-Type: text/html');
     }
     li{
       list-style: none;
-      text-align: center;
-      font-size: xx-large;
+      font-size: large;
+    }
+    li a{
+      vertical-align: middle;
+      text-decoration: none;
+    }
+    @media screen and (max-width: 380px){
+      li{
+        text-align: center;
+        height: 1.5em;
+      }
     }
   </style>
   </head>
@@ -23,9 +32,7 @@ header('Content-Type: text/html');
     <?php
       foreach( glob('../*') as $key => $val ){
         if( false ){
-        } elseif( $val == '../index.php' ){
-          continue;
-        } elseif( $val == '../robots.txt' ){
+        } elseif( ! is_dir($val) ){
           continue;
         } elseif( $val == '../' . basename( __DIR__ ) ){
           continue;
