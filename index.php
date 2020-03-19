@@ -24,7 +24,7 @@
       text-decoration: none;
     }
     li img{
-      width: 1em;
+      height: 1em;
     }
   </style>
   </head>
