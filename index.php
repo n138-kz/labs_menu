@@ -1,6 +1,4 @@
-<?php
-header('Content-Type: text/html');
-?><!DOCTYPE html>
+<?php header('Content-Type: text/html'); ?><!DOCTYPE html>
 <html lang="ja" dir="ltr">
   <head>
   <meta charset="utf-8" />
