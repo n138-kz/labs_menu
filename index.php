@@ -14,6 +14,12 @@ header('Content-Type: text/html');
     li{
       list-style: none;
       font-size: large;
+      height: 1.5em;
+
+      /* 画面中央寄せ */
+      left: 50%;
+      transform: translate(50%);
+      width: 50%;
     }
     li a{
       vertical-align: middle;
@@ -21,12 +27,6 @@ header('Content-Type: text/html');
     }
     li img{
       width: 1em;
-    }
-    @media screen and (max-width: 380px){
-      li{
-        text-align: center;
-        height: 1.5em;
-      }
     }
   </style>
   </head>
