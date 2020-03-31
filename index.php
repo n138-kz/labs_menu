@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width" />
   <title>Labs menu</title>
   <base target="_blank" />
+  <link type="image/png" href="./icon_self.png" rel="icon" />
+  <link type="image/png" href="./icon_self.png" rel="favicon" />
+  <link type="image/png" href="./icon_self.png" rel="apple-touch-icon" />
   <style media="screen">
     li:nth-child(even){
       background-color: azure;
