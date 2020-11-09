@@ -33,7 +33,7 @@
   </head>
   <body>
     <li><a href="https://github.com/n138-kz"><img src="icon_github.png" alt="" />Github</a></li>
-    <li><a href="http://nbs01.n138.jp:56780"><img src="icon_self.png" alt="" />nbs01</a></li>
+    <li><a href="http://fam2cgdyfaa0p63g.n138.jp:56780"><img src="icon_self.png" alt="" />nbs01</a></li>
     <?php
       foreach( glob('../*') as $key => $val ){
         if( false ){
