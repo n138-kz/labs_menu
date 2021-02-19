@@ -8,6 +8,15 @@
   <link type="image/png" href="./icon_self.png" rel="icon" />
   <link type="image/png" href="./icon_self.png" rel="favicon" />
   <link type="image/png" href="./icon_self.png" rel="apple-touch-icon" />
+  <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfCHdcUAAAAAOwkHsW_7W7MfoOrvoIw9CXdLRBA"></script>
+  <script type="text/javascript">
+    grecaptcha.ready(function() {
+      localStorage.setItem( (btoa(location.href)).slice(0, 16) + 'reCAPTCHA', JSON.stringify({token: ''}) );
+      grecaptcha.execute('6LfCHdcUAAAAAOwkHsW_7W7MfoOrvoIw9CXdLRBA', {action: 'homepage'}).then(function(token) {
+        localStorage.setItem( (btoa(location.href)).slice(0, 16) + 'reCAPTCHA', JSON.stringify({token: token}) );
+      });
+    });
+  </script>
   <style media="screen">
     li:nth-child(even){
       background-color: azure;
